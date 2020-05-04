@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wind Chimes Lab</string>
+    <string name="Wind_Chimes_Lab">Wind Chimes Lab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

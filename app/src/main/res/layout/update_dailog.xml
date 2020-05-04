@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:id="@+id/linearedit"
+    android:layout_height="500dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <EditText
+            android:inputType="text"
+            android:focusable="true"
+            android:id="@+id/update_name"
+            android:maxLength="10"
+            android:paddingLeft="15dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:inputType="number"
+            android:focusable="true"
+            android:maxLength="10"
+            android:id="@+id/update_phonenumber"
+            android:paddingLeft="15dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <io.blackbox_vision.datetimepickeredittext.view.DatePickerEditText
+            android:layout_width="match_parent"
+            android:id="@+id/update_time"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="date"/>
+            <EditText
+                android:gravity="start"
+                android:id="@+id/update_cost"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cost" />
+    </LinearLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:id="@+id/update_email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:gravity="start"
+            android:paddingLeft="15dp"
+            android:inputType="text"
+            android:id="@+id/update_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="College" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/button_style"
+        android:text="Update"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:layout_width="300dp"
+        android:backgroundTint="@color/red"
+        android:background="@drawable/button_style"
+        android:text="Cancel"
+        android:layout_marginTop="18dp"
+        android:id="@+id/update_cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>

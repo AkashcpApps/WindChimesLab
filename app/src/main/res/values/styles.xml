@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/google</item>
+    </style>
+    <style name="MyHintStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#852BFF</item>
+    </style>
+    <style name="linestyle">
+        <item name="colorControlActivated">#2196F3</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="colorControlHighlight">#000000</item>
+    </style>
+    <style name="MyStyle">
+        <item name="colorAccent">#852BFF</item>
+    </style>
+
+    <style name="searchViwStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+    </style>
+
+</resources>

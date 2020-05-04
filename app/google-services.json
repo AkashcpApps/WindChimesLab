@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231461244909",
+    "firebase_url": "https://wind-chimes-lab.firebaseio.com",
+    "project_id": "wind-chimes-lab",
+    "storage_bucket": "wind-chimes-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231461244909:android:dea4d92f1311bd1d6961e4",
+        "android_client_info": {
+          "package_name": "com.akashcp.windchimeslab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231461244909-80andqh4mifqa5531oe362h7qb1mlp9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akashcp.windchimeslab",
+            "certificate_hash": "d9d4922299b4df80c7167fa237807d5978d47fd7"
+          }
+        },
+        {
+          "client_id": "231461244909-rsnqpe7ubd64ivpu2gcujpc67usna663.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgsNgLqChdEf_poS5fe1HGQG4qlx7IebM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231461244909-rsnqpe7ubd64ivpu2gcujpc67usna663.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="200dp"
+            android:id="@+id/paidcheckbox"
+            android:text="Paid "
+            android:textSize="20dp"
+            android:buttonTint="#013220"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content">
+        </CheckBox>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:id="@+id/cname"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@+id/cname"
+            android:background="@color/white"
+            android:id="@+id/line"
+            android:layout_height="1dp">
+        </View>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:id="@+id/circel_image"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/circle"
+          android:layout_below="@+id/line"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="60dp">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/cname"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:text="  9945888170"
+                android:id="@+id/cphone"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/phone"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:text=" Male"
+                android:id="@+id/csex"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/sex"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text=" Domain"
+                android:id="@+id/cdomain"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/domain"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text=" email"
+                android:id="@+id/cemail"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/email"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="  20/23/1996"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cdate"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/date"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="13464"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cregister"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/register"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="  2500"
+                android:layout_marginTop="5dp"
+                android:id="@+id/ccost"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/cost"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="  Rajeev Institue Of Technology"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:id="@+id/ccollege"
+                android:drawableLeft="@drawable/college"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/dailoglinera"
+        android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/filtergroup"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="Domain"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_height="45dp">
+        </TextView>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Android"
+            android:id="@+id/radio_android"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="IOT"
+            android:id="@+id/radio_iot"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Java"
+            android:id="@+id/radio_java"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="OpenGL"
+            android:id="@+id/radio_Opengl"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="PPT"
+            android:id="@+id/radio_ppt"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Python"
+            android:id="@+id/radio_python"
+
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="SQL"
+            android:id="@+id/radio_sql"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Web Application"
+            android:id="@+id/radio_webapplication"
+            android:buttonTint="@color/purple"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+    </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Submit"
+        android:id="@+id/dailogbutton"
+        android:textSize="22dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_below="@id/dailoglinera"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</RelativeLayout>
